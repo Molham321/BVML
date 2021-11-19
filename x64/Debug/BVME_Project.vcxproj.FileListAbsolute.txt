@@ -1,0 +1,5 @@
+F:\BVME_library\BVME_Project\x64\Debug\BVME_Project.exe
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\x64\Debug\BVME_Project.exe
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\x64\Debug\BVME_Project.pdb
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVML_Training\BVME_Project\x64\Debug\BVME_Project.exe
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVML_Training\BVME_Project\x64\Debug\BVME_Project.pdb
