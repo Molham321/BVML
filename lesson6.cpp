@@ -17,6 +17,7 @@ CImage ImageTools::getLinearHistrogramImageInRGB(CImage& image)
 		{
 			CColor color = image.getPointValue(x, y);
 
+			// Histogramm in einem 256 Array realisieren
 			redHistogram[color.getRed()] += 1;
 			greenHistogram[color.getGreen()] += 1;
 			blueHistogram[color.getBlue()] += 1;
@@ -27,6 +28,7 @@ CImage ImageTools::getLinearHistrogramImageInRGB(CImage& image)
 	{
 		for (int i = 0; i < k; i++)
 		{
+			// Berechne kumulierte Histogramm
 			redOutputHistogram[k] += redHistogram[i];
 			greenOutputHistogram[k] += greenHistogram[i];
 			blueOutputHistogram[k] += blueHistogram[i];
@@ -41,6 +43,7 @@ CImage ImageTools::getLinearHistrogramImageInRGB(CImage& image)
 		{
 			CColor color = clone.getPointValue(x, y);
 
+			//Weisen Sie nun jedem Pixel mit RGB ri den neuen RGB hc(ri) zu.
 			int redValue = 255 * ((double)redOutputHistogram[color.getRed()] / widthHeight);
 			int greenValue = 255 * ((double)greenOutputHistogram[color.getGreen()] / widthHeight);
 			int blueValue = 255 * ((double)blueOutputHistogram[color.getBlue()] / widthHeight);

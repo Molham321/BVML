@@ -6,6 +6,7 @@ int smoothenMatrix[3][3] = {
 	{ 1, 2, 1 }
 };
 
+// ein Bild weich zeichnet
 CImage ImageTools::getSmoothenImage(CImage& image) {
 	CImage greyscaleImage = image.getGreyscaleImage();
 	CImage clone = image.getGreyscaleImage();
@@ -35,6 +36,7 @@ CImage ImageTools::getSmoothenImage(CImage& image) {
 	return clone;
 }
 
+// ein Bild schärft
 CImage ImageTools::getSharpenImageLaplace(CImage& image, int c) {
 	CImage greyscaleImage = image.getGreyscaleImage();
 	CImage clone = image.getGreyscaleImage();
