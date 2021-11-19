@@ -75,7 +75,7 @@ CImage ImageTools::getLinearHistrogramImage(CImage& image) {
 		for (int y = 0; y < image.getWidth(); y++) {
 			CColor color = image.getPointValue(x, y);
 
-			histogram[color.getGrey()] += 1;				// Berechne Histogramm
+			histogram[color.getRed()] += 1;				// Berechne Histogramm
 		}
 
 	for (int k = 0; k < 256; k++) {

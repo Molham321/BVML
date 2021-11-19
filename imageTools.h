@@ -20,8 +20,6 @@ public:
 	static ImageCoordinate getBrightestPoint(CImage& image);
 	static ImageCoordinate getDarkestPoint(CImage& image);
 
-	static CImage highlightPoint(CImage& image, ImageCoordinate coordinates, int radius);
-
 	// Übung 2
 
 	static int getAverageGrayValue(CImage& image);
