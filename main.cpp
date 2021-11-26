@@ -64,7 +64,12 @@ int main()
 	//ImageTools::serie5Aufg1(imageSchmetterling_saltpepperGrayImgae);
 
 	//test Übung_06
-	ImageTools::getLinearHistrogramImageInRGB(imageRoseRgbFlau).showImage("LinearHistrogramImageInRGB");
+	//ImageTools::getLinearHistrogramImageInRGB(imageRoseRgbFlau).showImage("LinearHistrogramImageInRGB");
+
+	// Test Übung_07
+	//ImageTools::SobelFilter(imageRose).showImage("SobelFilter");
+
+	ImageTools::sobelfilter2Sides(imageRose).showImage();
 
 	system("pause");
 	return 0;

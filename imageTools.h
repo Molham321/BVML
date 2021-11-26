@@ -49,4 +49,7 @@ public:
 
 	// Übung 6
 	static CImage getLinearHistrogramImageInRGB(CImage& image);
+
+	// Übung 7
+	static CImage sobelfilter2Sides(CImage& image);
 };
