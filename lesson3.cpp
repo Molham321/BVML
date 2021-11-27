@@ -64,7 +64,6 @@ CImage ImageTools::getSharpenImageLaplace(CImage& image, int c) {
 
 			clone.setPointValue(x, y, color);
 		}
-
 	return clone;
 }
 

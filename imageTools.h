@@ -51,5 +51,6 @@ public:
 	static CImage getLinearHistrogramImageInRGB(CImage& image);
 
 	// Übung 7
-	static CImage sobelfilter2Sides(CImage& image);
+	//static CImage sobelfilter2Sides(CImage& image);
+	static void sobelfilter2Sides(CImage& image);
 };

@@ -21,20 +21,6 @@ int main()
 	CImage imageLinienkreis("Images/linienkreis.bmp");
 	CImage imageCalvin("Images/calvin.bmp");
 
-	//imageRoseFourier.showImage("orginal");
-	//imageRose.showImage("orginal");
-	//imageRoseFlau.showImage("orginal");
-	//imageRoseRgbFlau.showImage("orginal");
-	//imageSchmetterlingSaltpepper.showImage("orginal");
-	//imageText1.showImage("orginal");
-	//imageSchachbrett.showImage("orginal");
-	//imageMond.showImage("orginal");
-	//imageReis.showImage("orginal");
-	//imageLinien.showImage("orginal");
-	//imageLinienkreis.showImage("orginal");
-	//imageCalvin.showImage("orginal");
-
-
 	//Test Übung_01 
 	//ImageTools::getGrayscaleImage(imageRose).showImage("GrayscaleImage");
 	//ImageTools::getBinaryImage(imageText1, 65).showImage("BinaryImage");
@@ -68,8 +54,7 @@ int main()
 
 	// Test Übung_07
 	//ImageTools::SobelFilter(imageRose).showImage("SobelFilter");
-
-	ImageTools::sobelfilter2Sides(imageRose).showImage();
+	ImageTools::sobelfilter2Sides(imageRose);
 
 	system("pause");
 	return 0;

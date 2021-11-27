@@ -1,14 +1,4 @@
-﻿  lesson1.cpp
-  lesson2.cpp
-C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson2.cpp(94,14): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
-  lesson3.cpp
-  lesson4.cpp
-  lesson5.cpp
-  lesson6.cpp
-C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson6.cpp(47,17): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
-C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson6.cpp(48,19): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
-C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson6.cpp(49,18): warning C4244: "Initialisierung": Konvertierung von "double" in "int", möglicher Datenverlust
-  lesson7.cpp
-  main.cpp
-  Code wird generiert...
+﻿  lesson7.cpp
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson7.cpp(104,38): warning C4244: "+=": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson7.cpp(105,38): warning C4244: "+=": Konvertierung von "double" in "int", möglicher Datenverlust
   BVME_Project.vcxproj -> C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\x64\Debug\BVME_Project.exe
