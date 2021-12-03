@@ -54,7 +54,10 @@ int main()
 
 	// Test Übung_07
 	//ImageTools::SobelFilter(imageRose).showImage("SobelFilter");
-	ImageTools::sobelfilter2Sides(imageRose);
+	//ImageTools::sobelfilter2Sides(imageRose);
+
+	// Test Übung_08
+	ImageTools::hairWavelets();
 
 	system("pause");
 	return 0;

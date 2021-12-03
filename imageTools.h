@@ -53,4 +53,7 @@ public:
 	// Übung 7
 	//static CImage sobelfilter2Sides(CImage& image);
 	static void sobelfilter2Sides(CImage& image);
+
+	// Übung_08
+	static void hairWavelets();
 };

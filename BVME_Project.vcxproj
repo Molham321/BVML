@@ -159,6 +159,7 @@
     <ClCompile Include="lesson5.cpp" />
     <ClCompile Include="lesson6.cpp" />
     <ClCompile Include="lesson7.cpp" />
+    <ClCompile Include="lesson8.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -1,4 +1,6 @@
-﻿  lesson7.cpp
-C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson7.cpp(104,38): warning C4244: "+=": Konvertierung von "double" in "int", möglicher Datenverlust
-C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson7.cpp(105,38): warning C4244: "+=": Konvertierung von "double" in "int", möglicher Datenverlust
+﻿  lesson8.cpp
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson8.cpp(31,18): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson8.cpp(35,18): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson8.cpp(56,18): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
+C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\lesson8.cpp(60,29): warning C4244: "Argument": Konvertierung von "double" in "int", möglicher Datenverlust
   BVME_Project.vcxproj -> C:\Users\molha\OneDrive\Desktop\FHS\Semester 5\Bildverarbeitung und Mustererkennung\BVME_Project\x64\Debug\BVME_Project.exe
