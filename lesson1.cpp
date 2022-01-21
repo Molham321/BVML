@@ -53,7 +53,6 @@ CImage ImageTools::getBinaryImage(CImage& image, int treshold)
 		}
 	}
 	return clone;
-
 }
 
 ImageCoordinate ImageTools::getBrightestPoint(CImage& image)

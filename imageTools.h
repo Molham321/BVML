@@ -56,4 +56,14 @@ public:
 
 	// Übung_08
 	static void hairWavelets();
+
+	// Übung_09 habe ich noch nicht gemacht
+
+	//// Übung_10 FloodFilling Algorithmus
+	static void floodFill(CImage& image, int label);
+	//static CColor floodFillRekursiv(CImage i, int x, int y, int label);
+
+	//Übung_11 
+	static CImage moravec(CImage& image);
+
 };

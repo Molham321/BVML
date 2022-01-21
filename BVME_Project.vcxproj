@@ -153,6 +153,8 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="lesson1.cpp" />
+    <ClCompile Include="lesson10.cpp" />
+    <ClCompile Include="lesson11.cpp" />
     <ClCompile Include="lesson2.cpp" />
     <ClCompile Include="lesson3.cpp" />
     <ClCompile Include="lesson4.cpp" />

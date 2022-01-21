@@ -41,6 +41,10 @@ int main()
 	//ImageTools::getBinaryImage(imageText1).showImage("BinaryImage");
 	//ImageTools::getLinearHistrogramImage(imageRoseFourier).showImage("LinearHistrogramImage");
 
+	//Test Übung _03
+	//CImage test = ImageTools::getSmoothenImage(imageRose);
+	//test.showImage();
+
 
 	//Test Übung_05
 	//CImage imageSchmetterling_saltpepper("Images/schmetterling_saltpepper.bmp");
@@ -57,7 +61,15 @@ int main()
 	//ImageTools::sobelfilter2Sides(imageRose);
 
 	// Test Übung_08
-	ImageTools::hairWavelets();
+	//ImageTools::hairWavelets();
+
+	//// Test Übung_10
+	//ImageTools::floodFill(imageSchachbrett);
+
+	//Test Übung_11
+	CImage pic = ImageTools::moravec(imageSchachbrett);
+	imageSchachbrett.showImage();
+	pic.showImage();
 
 	system("pause");
 	return 0;
