@@ -1,7 +1,7 @@
 #include "imageTools.h"
 #include <iostream>
 
-// Berechne den Mittelwert µ aller Grauwerte
+// Berechne den Mittelwert Âµ aller Grauwerte
 int ImageTools::getAverageGrayValue(CImage& image) {
 	CImage clone = image.getGreyscaleImage();
 
@@ -40,21 +40,21 @@ int ImageTools::getIterativeTreshold(CImage& image) {
 
 				int value = color.getRed();
 
-				if (value < average) {				// M< enthält alle Grauwerte kleiner als µ
+				if (value < average) {				// M< enthÃ¤lt alle Grauwerte kleiner als Âµ
 					combinedColorsAbove += value;
 					totalAbove++;
 				}
-				else {								// M> enthält alle Grauwerte größer als µ
+				else {								// M> enthÃ¤lt alle Grauwerte grÃ¶ÃŸer als Âµ
 					combinedColorsBelow += value;
 					totalBelow++;
 				}
 			}
 
-		// Berechne den Mittelwert µ< von M< und µ> von M>
+		// Berechne den Mittelwert Âµ< von M< und Âµ> von M>
 		int aboveValue = combinedColorsAbove / totalAbove;
 		int belowValue = combinedColorsBelow / totalBelow;
 
-		//Berechne einen neuen Schwellwert µ = (µ< + µ>) / 2
+		//Berechne einen neuen Schwellwert Âµ = (Âµ< + Âµ>) / 2
 		newAverage = (aboveValue + belowValue) / 2;
 	} while (abs(average - newAverage) > 0);
 
