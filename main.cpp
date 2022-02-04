@@ -5,7 +5,6 @@
 using namespace bvme;
 using namespace std;
 
-
 int main()
 {
 	CImage imageRoseFourier("Images/rose_fourier.bmp");
@@ -17,11 +16,12 @@ int main()
 	CImage imageSchachbrett("Images/schachbrett.bmp");
 	CImage imageMond("Images/mond.bmp");
 	CImage imageReis("Images/reis.bmp");
-	CImage imageLinien("Images/linien.bmp");
+
 	CImage imageLinienkreis("Images/linienkreis.bmp");
 	CImage imageCalvin("Images/calvin.bmp");
 
 	//Test Übung_01 
+	//imageRose.showImage("origin");
 	//ImageTools::getGrayscaleImage(imageRose).showImage("GrayscaleImage");
 	//ImageTools::getBinaryImage(imageText1, 65).showImage("BinaryImage");
 
@@ -41,16 +41,18 @@ int main()
 	//ImageTools::getBinaryImage(imageText1).showImage("BinaryImage");
 	//ImageTools::getLinearHistrogramImage(imageRoseFourier).showImage("LinearHistrogramImage");
 
-	//Test Übung _03
-	//CImage test = ImageTools::getSmoothenImage(imageRose);
-	//test.showImage();
+	//Test Übung_03
+	imageSchachbrett.showImage("origin");
+	ImageTools::getSmoothenImage(imageSchachbrett).showImage();
 
+	//Test Übung_04
+	//imageSchachbrett.showImage();
+	//ImageTools::gaussianLowPassFilter(imageSchachbrett, 0).showImage();
 
 	//Test Übung_05
 	//CImage imageSchmetterling_saltpepper("Images/schmetterling_saltpepper.bmp");
 	//imageSchmetterling_saltpepper.showImage("orginal");
 	//CImage imageSchmetterling_saltpepperGrayImgae = imageSchmetterling_saltpepper.getGreyscaleImage();
-
 	//ImageTools::serie5Aufg1(imageSchmetterling_saltpepperGrayImgae);
 
 	//test Übung_06
@@ -67,9 +69,17 @@ int main()
 	//ImageTools::floodFill(imageSchachbrett);
 
 	//Test Übung_11
-	CImage pic = ImageTools::moravec(imageSchachbrett);
-	imageSchachbrett.showImage();
-	pic.showImage();
+	//CImage pic = ImageTools::moravec(imageSchachbrett);
+	//imageSchachbrett.showImage();
+	//pic.showImage();
+
+	// Test Übung_12
+
+	//CImage imageLinien("Images/linien.bmp");
+
+	//imageLinien.showImage("origin");
+	//imageLinien = ImageTools::houghTransformation(imageLinien);
+	//imageLinien.showImage("houghTransformation");
 
 	system("pause");
 	return 0;

@@ -66,4 +66,6 @@ public:
 	//Übung_11 
 	static CImage moravec(CImage& image);
 
+	//Übung_12
+	static CImage houghTransformation(CImage& image);
 };
