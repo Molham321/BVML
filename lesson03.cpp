@@ -36,7 +36,7 @@ CImage ImageTools::getSmoothenImage(CImage& image) {
 	return clone;
 }
 
-// ein Bild sch‰rft
+// ein Bild sch√§rft
 CImage ImageTools::getSharpenImageLaplace(CImage& image, int c) {
 	CImage greyscaleImage = image.getGreyscaleImage();
 	CImage clone = image.getGreyscaleImage();
